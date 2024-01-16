@@ -1,5 +1,5 @@
 export default function App(){
     return (
-        <p>APP</p>
+        <p>APP-APP</p>
     )
 }
