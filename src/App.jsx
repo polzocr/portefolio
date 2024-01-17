@@ -1,5 +1,7 @@
+import CV from './pages/cv/index'
+
 export default function App(){
     return (
-        <p>APP-APP</p>
+        <><CV/></>
     )
 }
