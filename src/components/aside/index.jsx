@@ -15,7 +15,7 @@ export default function Aside(){
             {asideDatas.map((data, index) => {
                 return <Infos 
                     key={`${data.name}-${index}`}
-                    data = {data}
+                    data = {data.name}
                 />
             })}
             

@@ -1,13 +1,18 @@
 export default [
     {
         name: "Contact",
-        1: [
-            "Téléphone","0762749208"
-        ],
-        Email : "pw.prof@outlook.fr",
-        Adresse : "Paris, France",
-        Linkedin : "https://www.linkedin.com/in/paul-w11",
-        GitHub : "https://github.com/polzocr"
+        elements: [
+        {
+            Phone: {
+                value: "0762749208"
+            },
+            Email : "pw.prof@outlook.fr",
+            Adresse : "Paris, France",
+            Linkedin : "https://www.linkedin.com/in/paul-w11",
+            GitHub : "https://github.com/polzocr"
+        }
+    ]
+        
     },
 
     {

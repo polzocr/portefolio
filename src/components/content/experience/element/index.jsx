@@ -8,10 +8,7 @@ export default function Element({name, skills}){
                 <li>{name}</li>
                 <ul>
                     {skills && skills.map((skill, index) => {
-                        return <Skill 
-                                key={`${skill}-${index}`}
-                                skill={skill}
-                                />
+                        return (<li key={index}>{skill}</li>)
                     })}
                 </ul>
             </ul>
