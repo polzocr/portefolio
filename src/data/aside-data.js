@@ -4,7 +4,7 @@ export default [
         elements: [
             {
                 name: 'Téléphone',
-                value: "0762749208",
+                value: "07 62 74 92 08",
             },
             {
                 name: 'Email',

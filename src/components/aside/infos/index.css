@@ -1,3 +1,4 @@
 .title-infos{
-    color: white !important;
+    color: white ;
+    border-bottom: 2px solid rgb(214, 205, 205) ;
 }

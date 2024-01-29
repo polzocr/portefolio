@@ -1,0 +1,12 @@
+.name {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.elements {
+    margin-top: 20px;
+}
+
+.elements li {
+    margin-left: 20px;
+}
