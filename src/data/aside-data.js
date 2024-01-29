@@ -15,10 +15,6 @@ export default [
                 value: "Paris, France",
             },
             {
-                name: 'Adresse',
-                value: "Paris, France",
-            },
-            {
                 name: 'Linkedin',
                 value: "https://www.linkedin.com/in/paul-w11",
             },
@@ -35,13 +31,13 @@ export default [
         elements: [
             {
                 name: "Développeur Concepteur Logiciel",
-                niveau: "BAC +3/4",
+                value: "(Bac +3/4)",
                 date: "Sept. 2022 Sept. 2023",
                 organisme: "OpenClassRooms"
             },
             {
                 name: "Développeur et Intégrateur Web",
-                value: "BAC +2",
+                value: "(Bac +2)",
                 date: "Jan. 2022 Juil. 2022",
                 organisme: "OpenClassRooms"
             }

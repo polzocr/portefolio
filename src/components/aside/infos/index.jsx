@@ -1,8 +1,24 @@
 import "./index.css"
 
-export default function Infos({data}){
+import Element from './element/index'
+
+export default function Infos({name, elements}){
+    const skills = name === 'Compétences'
     return (
-        <h3 className="title-infos">{data.name}</h3>
+        <>
+            <h3 className="title-infos">{name}</h3>
+            
+            {elements.map((element,index) => {
+                return <Element 
+                        key={`${element.name}-${index}`}
+                        element = {element}
+                        type = {name}
+                        />
+            })}
+            
+        </>
+        
+
         
     )
 }

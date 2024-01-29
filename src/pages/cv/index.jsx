@@ -5,7 +5,7 @@ import Content from '../../components/content/index'
 
 export default function cv(){
     return (
-        <>
+        <main>
             <section id='cv'>
                 <section id="side">
                     <Aside />
@@ -14,6 +14,6 @@ export default function cv(){
                     <Content />
                 </section>
             </section>
-        </>
+        </main>
     )
 }

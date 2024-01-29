@@ -6,7 +6,6 @@ import Infos from './infos/index'
 
 
 export default function Aside(){
-    //console.log(asideDatas)
     return (
         <>
             <div className='container-photo'>
@@ -15,7 +14,8 @@ export default function Aside(){
             {asideDatas.map((data, index) => {
                 return <Infos 
                     key={`${data.name}-${index}`}
-                    data = {data.name}
+                    name = {data.name}
+                    elements = {data.elements}
                 />
             })}
             
