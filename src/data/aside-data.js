@@ -2,46 +2,78 @@ export default [
     {
         name: "Contact",
         elements: [
-        {
-            Phone: {
-                value: "0762749208"
+            {
+                name: 'Téléphone',
+                value: "0762749208",
             },
-            Email : "pw.prof@outlook.fr",
-            Adresse : "Paris, France",
-            Linkedin : "https://www.linkedin.com/in/paul-w11",
-            GitHub : "https://github.com/polzocr"
-        }
+            {
+                name: 'Email',
+                value: "pw.prof@outlook.fr",
+            },
+            {
+                name: 'Adresse',
+                value: "Paris, France",
+            },
+            {
+                name: 'Adresse',
+                value: "Paris, France",
+            },
+            {
+                name: 'Linkedin',
+                value: "https://www.linkedin.com/in/paul-w11",
+            },
+            {
+                name: 'GitHub',
+                value: "https://github.com/polzocr",
+            },
     ]
         
     },
 
     {
         name: 'Formation',
-        1: {
-            diplome: "Développeur Concepteur Logiciel",
-            niveau: "BAC +3/4",
-            date: "Sept. 2022 Sept. 2023",
-            organisme: "OpenClassRooms"
-        },
-        
-        2: {
-            diplome: "Développeur et Intégrateur Web",
-            niveau: "BAC +2",
-            date: "Jan. 2022 Juil. 2022",
-            organisme: "OpenClassRooms"
-        }
+        elements: [
+            {
+                name: "Développeur Concepteur Logiciel",
+                niveau: "BAC +3/4",
+                date: "Sept. 2022 Sept. 2023",
+                organisme: "OpenClassRooms"
+            },
+            {
+                name: "Développeur et Intégrateur Web",
+                value: "BAC +2",
+                date: "Jan. 2022 Juil. 2022",
+                organisme: "OpenClassRooms"
+            }
+
+        ]
     },
 
     {
         name : "Compétences",
-        skills : [
-            "Travail en équipe",
-            "Javascript / Node.js",
-            "React.js / Vue.js / Redux",
-            "SQL / API / ORM / MongoDB",
-            "GitHub / API / Tests / CI",
-            "HTML / SCSS / UI / UX",
-            "Agile / SEO"
+        elements : [
+            {
+                name: "Travail en équipe"
+            },
+            {
+                name: "Javascript / Node.js"
+            },
+            {
+                name: "React.js / Vue.js / Redux"
+            },
+            {
+                name: "SQL / API / ORM / MongoDB"
+            },
+            {
+                name: "GitHub / API / Tests / CI"
+            },
+            {
+                name: "HTML / SCSS / UI / UX"
+            },
+            {
+                name: "Agile / SEO"
+            },
+    
         ]
         
     },
@@ -49,18 +81,28 @@ export default [
 
     { 
         name : "Langues",
-        languagues: [
-            "Français",
-            "Anglais"
+        elements: [
+            {
+                name: "Français"
+            },
+            {
+                name: "Anglais"
+            }
         ] 
     },
 
     {
         name: "Loisirs",
-        hobbies: [
-            "Escalade, natation, kite-surf",
-            "Nouvelles technologies",
-            "Jeux de sociétés, jeux vidéos"
+        elements: [
+            {
+                name: "Escalade, natation, kite-surf"
+            },
+            {
+                name: "Nouvelles technologies"
+            },
+            {
+                name: "Jeux de sociétés, jeux vidéos",
+            }
         ]
     }
 ]
