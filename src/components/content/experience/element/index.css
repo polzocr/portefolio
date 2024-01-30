@@ -1,0 +1,14 @@
+.ul-element {
+    margin-top: 12px;
+    font-size: 11px;
+    color: #737373;
+    padding: 0 4%;
+}
+
+.ul-skills {
+    padding: 0 4%;
+}
+
+.ul-skills > li{
+    margin-top: 5px;
+}

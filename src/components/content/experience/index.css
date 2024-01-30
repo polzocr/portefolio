@@ -1,0 +1,17 @@
+.company {
+    font-size: 13px;
+    color: #737373;
+    font-weight: normal;
+}
+
+.date {
+    font-size: 13px;
+    color: #737373;
+    font-weight: bold;
+}
+
+.ul-exp h4,p {
+    margin-top: 4px;
+}
+
+

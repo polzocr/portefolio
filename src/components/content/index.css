@@ -1,29 +1,12 @@
-h1 {
-    font-size: 60px;
-    font-weight: normal;
-    color: #323B4C ;
-    letter-spacing: 4px;
-}
-
-h2 {
-    font-size: 28px;
-    font-weight: 500;
-    color: #323B4C ;
-    letter-spacing: 6px;
-    margin-top: -1%
-}
-
-h3{
-    font-size:30px;
-    font-weight: bold;
-    color: #323B4C ;
-    border-bottom: 2px solid rgb(172, 171, 171);;
-    margin-top: 7%;
-    padding: 1% 0;
-}
-
 .intro {
     margin-top: 4%;
-    color: rgb(100, 95, 95);
-    font-size: 18px;
+    color: #737373;
+    font-size: 13px ;
+}
+.ul-exp{
+    padding: 0 4%;
+}
+
+.ul-exp > li {
+    margin-top: 5%;
 }

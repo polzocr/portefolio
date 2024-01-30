@@ -7,10 +7,10 @@ export default function Experience({title, company, location, date, content}){
         <li>
             <h4>{title}</h4>
             {location ? 
-                <p>{company} | {location}</p>: 
-                <p>{company}</p>
+                <p className="company">{company} | {location}</p>: 
+                <p className="company">{company}</p>
             }
-            <p>{date}</p>
+            <p className="date">{date}</p>
             {content && content.map((element,index) => {
                 return (
                     <Element 

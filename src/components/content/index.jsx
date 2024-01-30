@@ -17,7 +17,7 @@ export default function Content(){
             <span> Javascript</span>, au niveau <span>front-end</span>, <span>back-end</span>, ou sur un framework comme <span>React</span>.
             </p>
             <h3>Experience</h3>
-            <ul>
+            <ul className='ul-exp'>
             {contentData.map((data,index) => {
                 return <Experience 
                         key={`${data.title}-${index}`}
