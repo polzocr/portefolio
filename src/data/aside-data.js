@@ -20,7 +20,7 @@ export default [
             },
             {
                 name: 'GitHub',
-                value: "https://github.com/polzocr",
+                value: `https://github.com/polzocr`,
             },
     ]
         
