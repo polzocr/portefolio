@@ -1,5 +1,4 @@
 import './index.css'
-import Skill from './skills/index'
 
 export default function Element({name, skills}){
     return (
