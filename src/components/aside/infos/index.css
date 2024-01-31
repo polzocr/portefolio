@@ -1,5 +1,12 @@
 .infos{
-    margin: 8% 0% 18% 16%;
+    margin: auto;
+    width: 90%;
+}
+
+@media screen and (min-width: 1024px) {
+    .infos{
+        margin: 8% 0% 18% 16%;
+    }
 }
 
 .title-infos{
