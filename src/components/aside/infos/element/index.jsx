@@ -6,15 +6,15 @@ export default function Element({element, type}){
     return (
         <div className='elements'>
             {skills ? (
-                <li>{element.name}</li>
+                <li className={`name`}>{element.name}</li>
             ) : (
                 <>
                     <p className={`name`}>{element.name}</p>
                     <p className= {`value`}>{element.value}</p>
                     {formation && (
                         <>
-                            <p>{element.date}</p>
-                            <p>{element.organisme}</p>
+                            <p className='element-date'>{element.date}</p>
+                            <p className='element-organisme'>{element.organisme}</p>
                         </>
                     )}
                 </>

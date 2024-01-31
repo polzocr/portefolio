@@ -1,4 +1,8 @@
+.infos{
+    margin: 8% 0% 18% 16%;
+}
+
 .title-infos{
     color: white ;
-    border-bottom: 2px solid rgb(214, 205, 205) ;
+    border-bottom: 1px solid #fff ;
 }
