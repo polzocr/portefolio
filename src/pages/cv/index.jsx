@@ -3,7 +3,7 @@ import './index.css'
 import Aside from '../../components/aside/index'
 import Content from '../../components/content/index'
 
-export default function cv(){
+export default function Cv(){
     return (
         <main>
             <section id='cv'>
