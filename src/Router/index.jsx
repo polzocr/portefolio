@@ -2,11 +2,12 @@ import {createBrowserRouter, RouterProvider, createRoutesFromElements, Route} fr
 
 import Layout from '../pages/Layout/index'
 import Home from '../pages/Home/index'
-import Cv from '../pages/Cv/index'
+import Cv from '../pages/cv/index'
 import ErrorPage from '../pages/ErrorPage/index'
 
 const router = 
 createBrowserRouter(
+    
     createRoutesFromElements(
         <>
             <Route path='/' element={<Layout />} errorElement={<ErrorPage />} >
