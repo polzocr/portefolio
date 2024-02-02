@@ -1,0 +1,16 @@
+.ul-element {
+    margin-top: 12px;
+    font-size: 15px;
+    color: #737373;
+    padding: 0 4%;
+    list-style-type: disc ;
+}
+
+.ul-skills {
+    padding: 0 4%;
+    list-style-type: circle ;
+}
+
+.ul-skills > li{
+    margin-top: 5px;
+}

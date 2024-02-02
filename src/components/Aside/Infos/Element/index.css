@@ -1,0 +1,22 @@
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+.value {
+    font-size: 15px;
+}
+
+.elements {
+    margin-block: 20px;
+}
+
+
+
+.element-organisme{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.element-date{
+    font-size: 16px;
+}
